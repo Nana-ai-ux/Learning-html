@@ -1,0 +1,70 @@
+.border {
+    width: 400px;
+    height: 500px;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 0px 400px;
+}
+.border .nor {
+    text-align: center;
+    font-size: large;
+    font-family: serif;
+}
+.border .core {
+    margin: 0px 30px;
+    font-weight: bold;
+}
+.border .nan {
+    margin: 0px 30px;
+}
+.border .pop {
+    margin: -22px 210px;
+}
+.border .border1 {
+    margin: 10px 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.border .bab {
+    margin: 10px 30px;
+    font-weight: bold;
+}
+.border .bab1 {
+    margin: 10px 30px;
+    font-weight: bold;
+}
+.border .bab2 {
+    margin: 10px 30px;
+    font-weight: bold;
+}
+.border .fish {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    background-color: green;
+}
+a:link {
+    background-color: green;
+    width: 200px;
+    height: 90px;
+}
+a:visted {
+    background-color: blue;
+}
+a:hover {
+    background-color: hotpink;
+}
+a:active {
+    background-color: brown;
+}
+a:link, a:visited {
+    background-attachment: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: red;
+}
